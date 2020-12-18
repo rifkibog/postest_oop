@@ -5,7 +5,7 @@ class PersonAgeLogic extends PersonLogic{
     super(...args)
   }
 
-  personByAge () {
+  personByAge() {
         if(this.getAge() < 20) {
           return "Merupakan Seorang Generasi Z"
         } 
