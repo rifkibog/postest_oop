@@ -15,7 +15,7 @@ if (person.getWeekType() === 'Weekday' || person.getWeekType() === 'Weekend')
      console.log(`Merupakan seorang ${person.personByAge()}`)
     } 
 else 
-    {console.log(`Tanggal lahir ${person1.name} bermasalah`)}
+    {console.log(`Tanggal lahir ${person.name} bermasalah`)}
 }
 
 
